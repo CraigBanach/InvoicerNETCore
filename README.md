@@ -1,6 +1,6 @@
 # Invoicer
 
-A simple PDF invoice generator for .NET.
+A simple PDF invoice generator for .NET Core, taken from https://github.com/simonray/Invoicer
 
 ### Usage
 
@@ -29,5 +29,5 @@ A simple PDF invoice generator for .NET.
 ![Alt text](http://s14.postimg.cc/525eovuep/invoice.png "Sample Invoice")
 		
 ### References
-* [PDFsharp/MigraDoc](http://pdfsharp.com)  
+* [ststeiger/PdfSharpCore](https://github.com/ststeiger/PdfSharpCore)
 * [HTML Color Picker](http://www.w3schools.com/tags/ref_colorpicker.asp)
