@@ -1,5 +1,4 @@
-﻿using Invoicer.Models;
-using InvoicerNETCore.Models;
+﻿using InvoicerNETCore.Models;
 using System;
 using System.Collections.Generic;
 

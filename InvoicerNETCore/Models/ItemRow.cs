@@ -1,4 +1,4 @@
-﻿namespace Invoicer.Models
+﻿namespace InvoicerNETCore.Models
 {
     public class ItemRow
     {
