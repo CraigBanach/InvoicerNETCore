@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicerNETCore", "InvoicerNETCore\InvoicerNETCore.csproj", "{D4A7F59C-ECC1-468D-A940-3990EDF6E005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicerNETCore.Console", "InvoicerNETCore.Console\InvoicerNETCore.Console.csproj", "{369BB770-6FAA-4270-B8E6-94DD5A29E82F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4A7F59C-ECC1-468D-A940-3990EDF6E005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A7F59C-ECC1-468D-A940-3990EDF6E005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A7F59C-ECC1-468D-A940-3990EDF6E005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A7F59C-ECC1-468D-A940-3990EDF6E005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BDD7CC3-1120-45E2-B692-3178CE6883DB}
+	EndGlobalSection
+EndGlobal
