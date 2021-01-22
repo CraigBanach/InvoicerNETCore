@@ -1,6 +1,6 @@
 # Invoicer
 
-A simple PDF invoice generator for .NET Core, taken from https://github.com/simonray/Invoicer
+A simple PDF invoice generator for .NET Core, taken from [simonray/Invoicer]https://github.com/simonray/Invoicer
 
 ### Usage
 
