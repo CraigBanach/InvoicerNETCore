@@ -2,12 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Craig Banach https://github.com/CraigBanach, simonray https://github.com/simonray</Authors>
+    <Company />
+    <Copyright>Copyright (c) 2021</Copyright>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/CraigBanach/InvoicerNETCore</RepositoryUrl>
+    <PackageTags>PDF Generation, .NET Core</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MigraDocCore.DocumentObjectModel" Version="0.1.1" />
     <PackageReference Include="MigraDocCore.Rendering" Version="0.1.0" />
     <PackageReference Include="PdfSharpCore" Version="1.2.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
