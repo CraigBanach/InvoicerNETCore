@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-            Test.SaveDoc();
+            new Process().Go();
         }
     }
 }

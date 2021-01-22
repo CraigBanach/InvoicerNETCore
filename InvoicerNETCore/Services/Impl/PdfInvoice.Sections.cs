@@ -4,9 +4,8 @@ using MigraDocCore.DocumentObjectModel;
 using MigraDocCore.DocumentObjectModel.MigraDoc.DocumentObjectModel.Shapes;
 using MigraDocCore.DocumentObjectModel.Shapes;
 using MigraDocCore.DocumentObjectModel.Tables;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using PdfSharpCore.Utils;
+using SixLabors.ImageSharp.PixelFormats;
 
 namespace InvoicerNETCore.Services.Impl
 {
@@ -26,6 +25,9 @@ namespace InvoicerNETCore.Services.Impl
 
             if (!string.IsNullOrEmpty(Invoice.Image))
             {
+                if (ImageSource.ImageSourceImpl == null)
+                    ImageSource.ImageSourceImpl = new ImageSharpImageSource<Rgba32>();
+
                 Image image = row.Cells[0].AddImage(ImageSource.FromFile(Invoice.Image));
                 row.Cells[0].VerticalAlignment = VerticalAlignment.Center;
 
