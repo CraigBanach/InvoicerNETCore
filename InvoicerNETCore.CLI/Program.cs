@@ -1,12 +1,13 @@
 ﻿using System;
+using InvoicerNETCore;
 
-namespace InvoicerNETCore.Console
+namespace InvoicerNETCore.CLI
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Test.SaveDoc();
         }
     }
 }

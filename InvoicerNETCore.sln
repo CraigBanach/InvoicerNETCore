@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicerNETCore", "InvoicerNETCore\InvoicerNETCore.csproj", "{D4A7F59C-ECC1-468D-A940-3990EDF6E005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoicerNETCore", "InvoicerNETCore\InvoicerNETCore.csproj", "{D4A7F59C-ECC1-468D-A940-3990EDF6E005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicerNETCore.Console", "InvoicerNETCore.Console\InvoicerNETCore.Console.csproj", "{369BB770-6FAA-4270-B8E6-94DD5A29E82F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicerNETCore.CLI", "InvoicerNETCore.CLI\InvoicerNETCore.CLI.csproj", "{DA228487-2661-41AE-BE1F-19BC611844C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{D4A7F59C-ECC1-468D-A940-3990EDF6E005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4A7F59C-ECC1-468D-A940-3990EDF6E005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4A7F59C-ECC1-468D-A940-3990EDF6E005}.Release|Any CPU.Build.0 = Release|Any CPU
-		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{369BB770-6FAA-4270-B8E6-94DD5A29E82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA228487-2661-41AE-BE1F-19BC611844C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA228487-2661-41AE-BE1F-19BC611844C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA228487-2661-41AE-BE1F-19BC611844C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA228487-2661-41AE-BE1F-19BC611844C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
